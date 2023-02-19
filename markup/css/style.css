@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    margin-top: auto auto;
+   
+}
+
+.menu ul {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+
+}
+
+.menu>ul>li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    background: black;
+    padding: 15px 30px 15px 30px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+}
+
+.menu :hover>a {
+    background: blue;
+    color: white;
+    display: block;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+.menu li ul {
+    position: absolute;
+    min-width: 240px;
+    display: none;
+}
+
+.menu li>ul li ul {
+    position: absolute;
+    right: -150px;
+    top: 0;
+    bottom: 50px; 
+}
+
+.menu>ul li {
+    position: relative;
+}
+
+.submenu li {
+    left: 90px;
+}
